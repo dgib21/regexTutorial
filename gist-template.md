@@ -1,11 +1,16 @@
-# Regex Gist Tutorial 
+# Matching an Email Regex Gist Tutorial 
 
-This is a Github Gist that describes how to use Regular Expressions (Regex).  
-Regex is used to identify general text like an email that follow specific parameters. 
+This is a Github Gist that describes how to use a Regular Expressions (Regex) to match an Email address.  
+The below Regex is used to identify general text like an email that follows specific parameters.
+
+```
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+Briefly summarize the regex you will be describing and what you will explain.
+I will be describing the componenets 
 
 ## Table of Contents
 
